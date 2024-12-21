@@ -7,7 +7,10 @@
     "type-check": "turbo type-check",
     "clean": "turbo clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "trainer": "pnpm --filter trainer",
+    "user": "pnpm --filter user",
+    "ui": "pnpm --filter ui"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
